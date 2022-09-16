@@ -17,3 +17,17 @@
 2. startapp notice
    1. python manage.py startapp notice
    2. 'notice', in INSTALLED_APPS in settings.py
+   3. models -> admin -> views -> templates -> urls
+   4. models
+      1. Notice
+      2. python manage
+      3. python manage.py migrate
+   5. admin
+      1. NoticeAdmin
+      2. python manage.py createsuper user
+   6. views
+      1. NoticeListView
+   7. templates
+      1. notice_list.html
+   8. urls
+      1. notice:list
